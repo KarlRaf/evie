@@ -457,13 +457,13 @@ button, .button {
       color: #fff; } }
 
 .button__accent {
-  background-color: #06d19c;
-  border-color: #06d19c;
+  background-color: #5056C9;
+  border-color: #5056C9;
   color: #fff; }
   @media (min-width: 992px) {
     .button__accent:hover {
-      background-color: #05bd8d;
-      border-color: #05bd8d;
+      background-color: #757BEF;
+      border-color: #757BEF;
       color: #fff; } }
 
 .button__delete {
@@ -734,7 +734,7 @@ select {
   position: fixed;
   z-index: 100;
   width: 100%;
-  background-color: #6C63FF;
+  background-color: #55C68B;
   transition: 0.7s; }
   .navbar--nofixed {
     position: relative;
@@ -872,13 +872,13 @@ select {
   width: 100%;
   opacity: 0.96;
   z-index: 1;
-  background-color: #6C63FF; }
+  background-color: #4EC788; }
 
 .hero__overlay--gradient {
-  background: linear-gradient(to right, #6C63FF, #4641FF); }
+  background: linear-gradient(to right, #4EC788, #4EC788); }
 
 .hero__overlay--gradientVertical {
-  background: linear-gradient(to bottom, #6C63FF, #4641FF); }
+  background: linear-gradient(to bottom, #4EC788, #4EC788); }
 
 .hero__mask {
   position: absolute;
@@ -983,7 +983,7 @@ select {
       margin: 32pt 0; } }
 
 .step__image {
-  max-height: 100px;
+  max-height: 120px;
   max-width: 222px;
   margin-top: 8pt;
   -webkit-user-drag: none;
@@ -1045,7 +1045,7 @@ select {
   padding: 16pt 0; }
   @media (min-width: 992px) {
     .expanded__image {
-      max-width: 280px; } }
+      max-width: 400px; } }
 
 .expanded__title {
   max-width: 550px; }
@@ -1054,19 +1054,16 @@ select {
   max-width: 60ch; }
 
 .cta {
-  background: linear-gradient(to right, #6C63FF, #4641FF);
+  background-color: #4EC788 !important;
   color: #fff;
   padding: 48pt 0;
   text-align: center; }
 
-.cta--reverse {
-  background: linear-gradient(to left, #6C63FF, #4641FF); }
-
-.cta--plain {
+/*.cta--plain {
   background: #6C63FF; }
 
 .cta--secondary {
-  background: #4641FF; }
+  background: #4641FF; }*/
 
 .cta__title {
   color: inherit; }
